@@ -4,9 +4,9 @@
 
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li><a href="#">Layanan</a></li>
-        <li><a href="#">Psikolog</a></li>
+        <li><a href="/psikolog">Psikolog</a></li>
         <li><a href="#">Tentang Kami</a></li>
       </ul>
     </nav>
@@ -36,6 +36,8 @@
     width: 100%;
     position: fixed;
     top: 0;
+    height: 70px;
+    z-index: 999;
   }
 
   .logo {
