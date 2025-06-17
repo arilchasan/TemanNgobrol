@@ -7,6 +7,10 @@ Route::get('/', function () {
     return view('web.homepage');
 });
 
+Route::get('/tentangkami', function () {
+    return view('web.tentangkami');
+});
+
 
 //dashboard route
 Route::prefix('/dashboard')->group(function () {
