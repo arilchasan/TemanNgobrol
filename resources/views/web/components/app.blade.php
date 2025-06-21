@@ -11,7 +11,7 @@
     @include('web.components.header')
 
     {{-- Konten Halaman --}}
-    <main>
+    <main style="overflow-x: hidden;">
         @yield('content')
     </main>
 
