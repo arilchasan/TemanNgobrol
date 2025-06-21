@@ -17,9 +17,11 @@ return [
     |            "redis", "dynamodb", "array"
     |
     */
+    // 'file' saya buat sendiri
+    'driver' => 'file',
 
-    'driver' => env('SESSION_DRIVER', 'database'),
-
+    // ini config aslinya
+    // env('SESSION_DRIVER', 'database')
     /*
     |--------------------------------------------------------------------------
     | Session Lifetime
