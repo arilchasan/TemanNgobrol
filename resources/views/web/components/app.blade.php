@@ -19,4 +19,9 @@
     @include('web.components.footer')
 
 </body>
+<style>
+        html {
+            overflow-y: scroll;
+        }
+    </style>
 </html>

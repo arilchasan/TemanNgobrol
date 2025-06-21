@@ -1,8 +1,8 @@
 @extends('web.components.app')
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 @section('content')
-<div class="container" style="padding-top: 120px;">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<div class="container" style="padding-top: 50px;">
     <h2 class="text-center mb-5 fw-bold" style="color: #294587">Layanan</h2>
     <div class="row justify-content-center">
         @foreach ($layanan as $item)

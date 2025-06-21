@@ -4,7 +4,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <div class="container my-5 overflow-x: hidden;" style="padding-top: 50px">
+    <div class="container my-3 overflow-x: hidden;" >
         <div class="row align-items-center ">
             <!-- Text Section -->
             <div class="col-md-8 mb-4 mb-md-0">
