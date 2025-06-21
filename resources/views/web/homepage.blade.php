@@ -4,8 +4,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <div class="container p-5 my-5 overflow-x: hidden;">
-        <div class="row align-items-center">
+    <div class="container my-5 overflow-x: hidden;" style="padding-top: 50px">
+        <div class="row align-items-center ">
             <!-- Text Section -->
             <div class="col-md-8 mb-4 mb-md-0">
                 <h2 class="fw-bold">
@@ -34,13 +34,13 @@
         <!-- Bottom Quote Section -->
 
         <div class="col-md-6 mx-auto my-5">
-            <p class="text-center fst-italic">
+            <p class="text-center fst-italic" style="font-size: 18px;">
                 "Rasakan perubahan positif dalam hidupmu! Konseling di sini untuk kamu yang butuh tempat curhat tanpa takut
                 dihakimi. Yuk, kita bareng-bareng cari solusi buat masalah yang lagi kamu hadapi, biar hidupmu lebih happy
                 dan seimbang. Kamu nggak sendiri, kita ada buat dukung kamu!"
             </p>
         </div>
-        < <!-- Section: Apa Yang Sedang Kamu Rasakan -->
+         <!-- Section: Apa Yang Sedang Kamu Rasakan -->
             <div class="container my-5">
                 <h4>Apa Yang Sedang Kamu Rasakan?</h4>
                 <p>Yuk, pilih perasaan yang sedang kamu hadapi dan temukan bantuan yang kamu butuhkan sekarang!</p>

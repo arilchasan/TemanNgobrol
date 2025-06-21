@@ -21,7 +21,7 @@ class DashboardController extends Controller
 
         return view('admin.users.index', compact('users'));
     }
-    
+
     public function getUsers(Request $request)
     {
         if ($request->ajax()) {

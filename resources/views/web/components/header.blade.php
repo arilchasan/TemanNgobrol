@@ -5,7 +5,7 @@
     <nav>
       <ul>
         <li><a href="/">Home</a></li>
-        <li><a href="#">Layanan</a></li>
+        <li><a href="/layanan">Layanan</a></li>
         <li><a href="/psikolog">Psikolog</a></li>
         <li><a href="#">Tentang Kami</a></li>
       </ul>
