@@ -1,6 +1,6 @@
 @extends('web.components.app')
 @section('content')
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <div class="contain" style="padding-top: 40px;">
         <h2 class="text-center mb-5 fw-bold" style="color: #294587">Daftar Psikolog</h2>
 
@@ -18,14 +18,17 @@
                                 <div class="card shadow-sm border-0" style="width: 18rem;">
                                     <div class="card-img-top bg-light d-flex align-items-center justify-content-center"
                                         style="height: 190px;">
-                                        <img src="{{ asset('storage/' . $psikolog->image) }}" alt="Foto {{ $psikolog->nama }}"
-                                            class="img-fluid" >
+                                        <img src="{{ asset('storage/' . $psikolog->image) }}"
+                                            alt="Foto {{ $psikolog->nama }}" class="img-fluid w-100 h-100"
+                                            style="object-fit: cover;">
                                     </div>
                                     <div class="card-body text-center">
                                         <h5 class="card-title fw-semibold">{{ $psikolog->nama }}</h5>
                                         <p class="card-text text-muted">{{ $psikolog->role }}</p>
-                                        <a href="#" class="btn btn-outline-primary w-100 mb-2">Lihat Profil</a>
-                                        <a href="#" class="btn btn-outline-dark w-100"
+                                        <a href="/psikolog/tentang/{{ $psikolog->id }}"
+                                            class="btn btn-outline-primary w-100 mb-2">Lihat Profil</a>
+                                        <a href="/psikolog/konsultasi/{{ $psikolog->id }}"
+                                            class="btn btn-outline-dark w-100"
                                             style="color: #294587; border-color: #294587; background-color: transparent;"
                                             onmouseover="this.style.backgroundColor='#294587'; this.style.color='white';"
                                             onmouseout="this.style.backgroundColor='transparent'; this.style.color='#294587';">

@@ -28,7 +28,8 @@
     }
 
     body {
-        padding-top: 70px; /* agar konten tidak ketutupan header */
+        padding-top: 70px;
+        /* agar konten tidak ketutupan header */
         font-family: 'Poppins', sans-serif;
     }
 
@@ -59,7 +60,7 @@
     nav ul {
         display: flex;
         list-style: none;
-        align-items: center; 
+        align-items: center;
         height: 70px;
         padding-right: 100px;
     }

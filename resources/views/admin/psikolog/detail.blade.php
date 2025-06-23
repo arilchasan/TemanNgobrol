@@ -50,7 +50,7 @@
 
             <!-- Tombol -->
             <div class="flex justify-end mt-6">
-                <a href="/dashboard/psikolog/{{ $psikolog->id }}/edit"
+                <a href="/dashboard/psikolog/edit-psikolog/{{$psikolog->id}}"
                     class="px-6 py-2 leading-5 text-white transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:bg-blue-700">Edit</a>
                 <a href="/dashboard/psikolog"
                     class="px-6 py-2 ml-2 leading-5 text-white transition-colors duration-200 transform bg-stone-500 rounded-md hover:bg-stone-600 focus:outline-none focus:bg-stone-600">Kembali</a>

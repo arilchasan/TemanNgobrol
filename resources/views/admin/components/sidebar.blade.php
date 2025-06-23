@@ -26,7 +26,7 @@
                 </span>
                 <span class="ml-2 text-sm tracking-wide truncate">Dashboard</span>
             </a>
-            <a href="/dashboard/users"
+            {{-- <a href="/dashboard/users"
                 class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6">
                 <span class="inline-flex justify-center items-center ml-4">
                     <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -37,7 +37,7 @@
 
                 </span>
                 <span class="ml-2 text-sm tracking-wide truncate">Users Registered</span>
-            </a>
+            </a> --}}
             <a href="/dashboard/psikolog"
                 class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6">
                 <span class="inline-flex justify-center items-center ml-4">
@@ -60,7 +60,7 @@
             </a> --}}
 
 
-            <a href="/auth/logout-admin"
+            <a href="/auth/logout"
                 class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6">
                 <span class="inline-flex justify-center items-center ml-4">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"

@@ -84,7 +84,7 @@
                                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9h2v5m-2 0h4M9.408 5.5h.01M19 10a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
                                                   </svg>
                                             </a>
-                                            <a href="/dashboard/psikolog/edit-psikolog/{{$u->name}}" class="bg-yellow-500 hover:bg-yellow-300 text-grey-darkest font-bold py-2 px-4 rounded inline-flex items-center">
+                                            <a href="/dashboard/psikolog/edit-psikolog/{{ $u->id }}" class="bg-yellow-500 hover:bg-yellow-300 text-grey-darkest font-bold py-2 px-4 rounded inline-flex items-center">
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="0.5" stroke="currentColor" class="w-4 h-4">
                                                     <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125" />
                                                   </svg>
@@ -96,17 +96,21 @@
                                                   </svg>
 
                                               </button>
+                                              <form id="delete-form-{{ $u->id }}" action="/dashboard/psikolog/delete-psikolog/{{ $u->id }}" method="POST" style="display: none;">
+                                                @csrf
+                                                @method('DELETE')
+                                            </form>
                                         </div>
                                     </td>
                                 </tr>
                                 @endforeach
 
-                                </tbody>
-                            </table>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
 @endsection
 
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
@@ -124,7 +128,7 @@
             cancelButtonText: 'Batal'
         }).then((result) => {
             if (result.isConfirmed) {
-                window.location.href = "/dashboard/psikolog/delete-psikolog/" + id;
+                document.getElementById('delete-form-' + id).submit();
             }
         })
     }

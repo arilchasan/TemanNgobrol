@@ -8,8 +8,8 @@
         @foreach ($layanan as $item)
             <div class="col-md-3 mb-4 d-flex justify-content-center">
                 <div class="card text-center" style="width: 16rem;">
-                    <div class="card-img-top" style="height: 150px; background-color: #e0e0e0;">
-
+                    <div class="card-img-top" style="height: 150px; background-color: #ffffff;border-bottom: 1px solid #000000;">
+                        <img src="{{ asset($item['img']) }}" class="img-fluid" alt="{{ $item['judul'] }}" style="max-height: 100%; max-width: 100%; object-fit: cover;">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">{{ $item['judul'] }}</h5>

@@ -11,19 +11,23 @@ class LayananController extends Controller
          $layanan = [
         [
             'judul' => 'Konseling Individu',
-            'deskripsi' => 'Sesi privat bersama psikolog profesional untuk membahas masalah pribadi seperti kecemasan, stres, depresi, atau krisis diri.'
+            'deskripsi' => 'Sesi privat bersama psikolog profesional untuk membahas masalah pribadi seperti kecemasan, stres, depresi, atau krisis diri.',
+            'img' => 'assets/konseling.png'
         ],
         [
             'judul' => 'Manajemen Emosi',
-            'deskripsi' => 'Sesi khusus untuk membantu klien mengenali, mengelola, dan mengekspresikan emosi dengan cara yang sehat.'
+            'deskripsi' => 'Sesi khusus untuk membantu klien mengenali, mengelola, dan mengekspresikan emosi dengan cara yang sehat.',
+            'img' => 'assets/emosi.png'
         ],
         [
             'judul' => 'Tes Psikologi Online',
-            'deskripsi' => 'Tes kepribadian, tes minat bakat, atau tes kesehatan mental yang bisa diakses secara daring dengan hasil interpretasi profesional.'
+            'deskripsi' => 'Tes kepribadian, tes minat bakat, atau tes kesehatan mental yang bisa diakses secara daring dengan hasil interpretasi profesional.',
+            'img' => 'assets/tes.png'
         ],
         [
             'judul' => 'Chat Konseling',
-            'deskripsi' => 'Alternatif sesi real-time, klien bisa curhat lewat chat dan mendapat tanggapan dari psikolog dalam waktu tertentu.'
+            'deskripsi' => 'Alternatif sesi real-time, klien bisa curhat lewat chat dan mendapat tanggapan dari psikolog dalam waktu tertentu.',
+            'img' => 'assets/chat.png'
         ]
     ];
 
